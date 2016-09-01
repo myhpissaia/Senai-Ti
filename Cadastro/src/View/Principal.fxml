@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="ap" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PrincipalController">
+   <children>
+      <Button fx:id="btpe" layoutX="60.0" layoutY="62.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="186.0" text="Cadastro da Pessoas " />
+      <Button fx:id="btcemp" layoutX="346.0" layoutY="62.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="186.0" text="Cadastro da Empresas" />
+      <Button fx:id="btlpes" layoutX="60.0" layoutY="236.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="186.0" text="Listar Pessoas" />
+      <Button fx:id="btlemp" layoutX="346.0" layoutY="236.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="186.0" text="Listar Empresa" />
+   </children>
+</AnchorPane>

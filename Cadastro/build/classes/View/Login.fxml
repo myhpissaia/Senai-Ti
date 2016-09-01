@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorpane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginController">
+   <children>
+      <Text fx:id="textusuario" layoutX="448.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario" />
+      <Text fx:id="textsenhas" layoutX="452.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Senha" />
+      <TextField fx:id="textuser" layoutX="394.0" layoutY="133.0" />
+      <PasswordField fx:id="textsenha" layoutX="394.0" layoutY="200.0" />
+      <Button fx:id="btsair" layoutX="394.0" layoutY="267.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Sair" />
+      <Button fx:id="btentrar" layoutX="484.0" layoutY="267.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Entrar" />
+      <ImageView fx:id="imagem" fitHeight="163.0" fitWidth="256.0" layoutX="60.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagem/Flore.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
